@@ -7,10 +7,12 @@
 }
 
 body {
-  background-color: #0f172a; /* Slate 900 */
-  color: #f8fafc; /* Slate 50 */
+  @apply bg-slate-50 text-slate-900 dark:bg-slate-900 dark:text-slate-50;
   font-family: 'Inter', sans-serif;
   overflow-x: hidden;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 300ms;
 }
 
 /* Custom Scrollbar */

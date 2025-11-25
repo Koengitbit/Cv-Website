@@ -2,7 +2,7 @@ export const translations = {
     en: {
         hero: {
             role: "Software Developer",
-            description: "Full-stack developer with 1.5 years of hands-on experience in C# (.NET), Angular, React, and Blazor. Passionate about building scalable and modern web applications.",
+            description: "Full-stack developer with 2 years of hands-on experience in C# (.NET), Angular, React, and Blazor. Passionate about building scalable and modern web applications.",
             cta: "View my work"
         },
         experience: {
@@ -82,13 +82,13 @@ export const translations = {
         contact: {
             title: "Let's Connect",
             description: "I am currently looking for a graduation internship for 5 months. Let's discuss how I can add value to your team.",
-            footer: "© {year} Koen van der Hoeven. Built with React & Tailwind."
+            footer: "© {year} Koen van der Hoeven"
         }
     },
     nl: {
         hero: {
             role: "Software Developer",
-            description: "Full-stack developer met 1,5 jaar hands-on ervaring in C# (.NET), Angular, React en Blazor. Gepassioneerd door het bouwen van schaalbare en moderne webapplicaties.",
+            description: "Full-stack developer met 2 jaar hands-on ervaring in C# (.NET), Angular, React en Blazor. Gepassioneerd door het bouwen van schaalbare en moderne webapplicaties.",
             cta: "Bekijk mijn werk"
         },
         experience: {
@@ -101,7 +101,7 @@ export const translations = {
                     description: "Ontwikkelde voor Alfen een op maat gemaakt ERP-systeem met C# en React (TypeScript) om de inkoopprocessen van de R&D-divisie te verbeteren.",
                     points: [
                         "Verbeterde de efficiëntie en gebruiksvriendelijkheid van interne workflows.",
-                        "Presenteerde het ontwikkelde product aan de manager en collega’s, wat leidde tot positieve feedback en goedkeuring voor vervolgstappen."
+                        "Presenteerde het ontwikkelde product aan de manager en collega's, wat leidde tot positieve feedback en goedkeuring voor vervolgstappen."
                     ]
                 },
                 {
@@ -110,7 +110,7 @@ export const translations = {
                     period: "Feb 2024 – Jun 2024",
                     description: "Ontwikkelde een C# en Angular website waarmee gebruikers Atlantis (archiefbeheer software) konden uitproberen om meer klanten te benaderen en haar sales proces te moderniseren.",
                     points: [
-                        "Leerde tijdens deze stage schaalbare en onderhoudbare code schrijven, REST API’s ontwikkelen, softwarebeveiliging (encryptie, decryptie, autorisatie), werken met de Onion-architectuur, en Jira gebruiken voor projectmanagement.",
+                        "Leerde tijdens deze stage schaalbare en onderhoudbare code schrijven, REST API's ontwikkelen, softwarebeveiliging (encryptie, decryptie, autorisatie), werken met de Onion-architectuur, en Jira gebruiken voor projectmanagement.",
                         "Ontwikkelde een API-koppeling tussen de proefsoftware en Atlantis, waarmee automatisch een 30-dagen proefperiode werd aangemaakt die op verzoek van de klant verlengd kon worden."
                     ]
                 }
@@ -168,7 +168,7 @@ export const translations = {
         contact: {
             title: "Contact",
             description: "Ik ben momenteel op zoek naar een afstudeerstage voor 5 maanden. Laten we bespreken hoe ik waarde kan toevoegen aan jouw team.",
-            footer: "© {year} Koen van der Hoeven. Gebouwd met React & Tailwind."
+            footer: "© {year} Koen van der Hoeven"
         }
     }
 };
