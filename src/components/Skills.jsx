@@ -7,17 +7,17 @@ const getSkillData = (key) => {
         case 'languages':
             return {
                 icon: <Code2 className="text-blue-400" />,
-                skills: ["C#", "JavaScript", "TypeScript", "Python", "SQL", "C", "HTML", "CSS", "Bootstrap", "Tailwind CSS", "PHP", "Java"]
+                skills: ["C#", "JavaScript", "TypeScript", "Python", "SQL", "C", "HTML", "CSS", "PHP", "Java"]
             };
         case 'frameworks':
             return {
                 icon: <Layout className="text-purple-400" />,
-                skills: [".NET 8.0", "ASP.NET", "MVC", "Blazor", "Angular", "React", "Laravel"]
+                skills: [".NET 8.0", "ASP.NET", "MVC", "Blazor", "Angular", "React", "Laravel", "Bootstrap", "Tailwind CSS"]
             };
         case 'databases':
             return {
                 icon: <Database className="text-green-400" />,
-                skills: ["MySQL", "PostgreSQL", "Entity Framework"]
+                skills: ["MySQL", "PostgreSQL", "Entity Framework", "SQL"]
             };
         case 'devops':
             return {
