@@ -2,6 +2,7 @@ import { LanguageProvider } from './contexts/LanguageContext';
 import { ThemeProvider } from './contexts/ThemeContext';
 import LanguageToggle from './components/LanguageToggle';
 import ThemeToggle from './components/ThemeToggle';
+import ParticleBackground from './components/ParticleBackground';
 import Hero from './components/Hero';
 import Experience from './components/Experience';
 import Education from './components/Education';
@@ -16,6 +17,7 @@ function App() {
         <div className="bg-slate-50 dark:bg-slate-900 min-h-screen text-slate-900 dark:text-slate-50 selection:bg-primary/30 selection:text-black dark:selection:text-white transition-colors duration-300">
           <ThemeToggle />
           <LanguageToggle />
+          <ParticleBackground />
           <Hero />
           <Experience />
           <Projects />
